@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 layout: "about"
+ShowToc: false
 cover:
     image: "miguel.jpeg" # Nombre exacto de tu archivo
     alt: "Miguel Planas"

@@ -1,19 +1,22 @@
 ---
 title: "Análisis y Aplicaciones de la Descomposición en Valores Singulares"
-tags: ["uni"]
+tags: ["uni", "python", "computer-vision", "math"]
 date: 2026-01-23T12:19:52+01:00
 draft: false
-description: "Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos mediante SVD."
+description: "Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos usando SVD."
 cover:
     image: "portada.png"
     alt: "Visualización de resultados SVD"
     relative: true
 ---
-
-<p align="center">
-  <a href="https://github.com/miguelplanas/svd_project"><img src="https://img.shields.io/badge/github-svd_project-black?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/miguelplanas/svd_project"><img src="https://img.shields.io/badge/Made_with-Python_3.11-blue?style=for-the-badge&logo=python" /></a>
-</p>s
+<div style="display: flex; justify-content: left; gap: 10px; flex-wrap: nowrap;">
+  <a href="https://github.com/miguelplanas/svd_project" style="text-decoration: none; box-shadow: none;">
+    <img src="https://img.shields.io/badge/github-svd_project-black?style=for-the-badge&logo=github" style="margin: 0;" />
+  </a>
+  <a href="https://github.com/miguelplanas/svd_project" style="text-decoration: none; box-shadow: none;">
+    <img src="https://img.shields.io/badge/Made_with-Python_3.11-blue?style=for-the-badge&logo=python" style="margin: 0;" />
+  </a>
+</div>
 
 ## Resumen del Proyecto
 

@@ -1,19 +1,23 @@
 ---
 title: "Analysis and Applications of Singular Value Decomposition"
-tags: ["uni"]
+tags: ["uni", "python", "computer-vision", "math"]
 date: 2026-01-23T12:19:52+01:00
 draft: false
 description: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."
 cover:
     image: "portada.png"
     alt: "Visualization of SVD results"
-    relative: true
+    math: true
 ---
 
-<p align="center">
-  <a href="https://github.com/miguelplanas/svd_project"><img src="https://img.shields.io/badge/github-svd_project-black?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/miguelplanas/svd_project"><img src="https://img.shields.io/badge/Made_with-Python_3.11-blue?style=for-the-badge&logo=python" /></a>
-</p>
+<div style="display: flex; justify-content: left; gap: 10px; flex-wrap: nowrap;">
+  <a href="https://github.com/miguelplanas/svd_project" style="text-decoration: none; box-shadow: none;">
+    <img src="https://img.shields.io/badge/github-svd_project-black?style=for-the-badge&logo=github" style="margin: 0;" />
+  </a>
+  <a href="https://github.com/miguelplanas/svd_project" style="text-decoration: none; box-shadow: none;">
+    <img src="https://img.shields.io/badge/Made_with-Python_3.11-blue?style=for-the-badge&logo=python" style="margin: 0;" />
+  </a>
+</div>
 
 ## Project Summary
 

@@ -5,6 +5,19 @@ theme = "PaperMod"
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\\[', '\\]'], ['$$', '$$']]
+          inline = [['\\(', '\\)'], ['$', '$']]
+
+
+
 [languages]
     # --- IDIOMA: ESPAÑOL ---
     [languages.es]
@@ -30,6 +43,7 @@ defaultContentLanguageInSubdir = true
 
         # Parámetros específicos de Español
         [languages.es.params]
+            redirectNextTo = true
             [languages.es.params.profileMode]
                 enabled = true
                 title = "Miguel Planas Díaz"
@@ -44,6 +58,9 @@ defaultContentLanguageInSubdir = true
                 [[languages.es.params.profileMode.buttons]]
                     name = "Sobre mí"
                     url = "about/"
+                [[languages.es.params.profileMode.buttons]]
+                    name = "Descargar CV"
+                    url = "/cv/CV_Miguel_Planas.pdf"
 
     # --- IDIOMA: INGLÉS ---
     [languages.en]
@@ -69,6 +86,7 @@ defaultContentLanguageInSubdir = true
 
         # Parámetros específicos de Inglés
         [languages.en.params]
+            redirectNextTo = true
             [languages.en.params.profileMode]
                 enabled = true
                 title = "Miguel Planas Díaz"
@@ -83,14 +101,21 @@ defaultContentLanguageInSubdir = true
                 [[languages.en.params.profileMode.buttons]]
                     name = "About Me"
                     url = "about/"
+                [[languages.en.params.profileMode.buttons]]
+                    name = "Download CV"
+                    url = "/cv/CV_Miguel_Planas.pdf"
 
 # Parámetros Globales
 [params]
     defaultTheme = "light"
+    math = true
     showCodeCopyButtons = true
     showFullTextContent = false
-    showShareButtons = true
+    # showShareButtons = true
     showPostMeta = true
+    ShowToc = true
+    TocOpen = false
+    ShowReadingTime = true
 
     [[params.socialIcons]]
         name = "github"

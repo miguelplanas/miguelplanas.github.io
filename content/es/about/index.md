@@ -1,6 +1,7 @@
 ---
 title: "Sobre mí"
 layout: "about"
+ShowToc: false
 cover:
     image: "miguel.jpeg"
     alt: "Miguel Planas"
