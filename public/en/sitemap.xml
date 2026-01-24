@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/projects/svd_project/</loc>
+    <loc>http://localhost:60331/en/projects/svd_project/</loc>
     <lastmod>2026-01-23T12:19:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/projects/svd_project/"
+                href="http://localhost:60331/es/projects/svd_project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/projects/svd_project/"
+                href="http://localhost:60331/en/projects/svd_project/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:60331/en/</loc>
     <lastmod>2026-01-23T12:19:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/"
+                href="http://localhost:60331/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="http://localhost:60331/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
+    <loc>http://localhost:60331/en/projects/</loc>
     <lastmod>2026-01-23T12:19:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/projects/"
+                href="http://localhost:60331/es/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/projects/"
+                href="http://localhost:60331/en/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>http://localhost:60331/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/about/"
+                href="http://localhost:60331/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/about/"
+                href="http://localhost:60331/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:60331/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/categories/"
+                href="http://localhost:60331/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:60331/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:60331/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/tags/"
+                href="http://localhost:60331/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:60331/en/tags/"
                 />
   </url>
 </urlset>
