@@ -12,7 +12,7 @@ cover:
 I am a **Data Science and Engineering** student at the **Universidade da Coruña (UDC)**. My academic focus is dedicated to developing rigorous analytical solutions and implementing efficient data architectures.
 
 Throughout my studies, I have delved into critical areas such as:
-* **Numerical Linear Algebra:** Application of matrix decompositions in computer vision and signal processing.
+* **Numerical Linear Algebra:** Application of matrix decomposition in computer vision and signal processing.
 * **Statistical Modeling:** Data analysis for evidence-based decision making.
 * **Software Engineering:** Development of robust, scalable, and well-documented code.
 
