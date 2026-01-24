@@ -1,0 +1,92 @@
+baseURL = 'https://miguelplanas.github.io/'
+theme = "PaperMod"
+
+# Configuración de idiomas
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = true
+
+[languages]
+    # --- IDIOMA: ESPAÑOL ---
+    [languages.es]
+        languageCode = "es-ES"
+        languageName = "Español"
+        contentDir = "content/es"
+        title = "Miguel Planas"
+        weight = 1
+        
+        [languages.es.menu]
+            [[languages.es.menu.main]]
+                name = "Proyectos"
+                url = "projects/"
+                weight = 10
+            [[languages.es.menu.main]]
+                name = "Sobre mí"
+                url = "about/"
+                weight = 20
+
+        # Parámetros específicos de Español
+        [languages.es.params]
+            [languages.es.params.profileMode]
+                enabled = true
+                title = "Miguel Planas Díaz"
+                imageUrl = "/images/miguel.jpeg" # Ruta a tu foto
+                imageWidth = 120 # Aquí sí puedes elegir el tamaño
+                imageHeight = 120
+                subtitle = "Estudiante de Ciencia e Ingeniería de Datos | Universidade da Coruña"
+                displayFullDisp = true
+                [[languages.es.params.profileMode.buttons]]
+                    name = "Proyectos"
+                    url = "projects/"
+                [[languages.es.params.profileMode.buttons]]
+                    name = "Sobre mí"
+                    url = "about/"
+
+    # --- IDIOMA: INGLÉS ---
+    [languages.en]
+        languageCode = "en-US"
+        languageName = "English"
+        contentDir = "content/en"
+        title = "Miguel Planas"
+        weight = 2
+        
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                name = "Projects"
+                url = "projects/"
+                weight = 10
+            [[languages.en.menu.main]]
+                name = "About"
+                url = "about/"
+                weight = 20
+
+        # Parámetros específicos de Inglés
+        [languages.en.params]
+            [languages.en.params.profileMode]
+                enabled = true
+                title = "Miguel Planas Díaz"
+                imageUrl = "/images/miguel.jpeg" # Ruta a tu foto
+                imageWidth = 120 # Aquí sí puedes elegir el tamaño
+                imageHeight = 120
+                subtitle = "Data Science & Engineering Student | Universidade da Coruña"
+                displayFullDisp = true
+                [[languages.en.params.profileMode.buttons]]
+                    name = "Projects"
+                    url = "projects/"
+                [[languages.en.params.profileMode.buttons]]
+                    name = "About Me"
+                    url = "about/"
+
+# Parámetros Globales
+[params]
+    defaultTheme = "light"
+    showCodeCopyButtons = true
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/miguelplanas"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/miguelplanasdiaz"
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:miguelplanasdiaz@gmail.com"
