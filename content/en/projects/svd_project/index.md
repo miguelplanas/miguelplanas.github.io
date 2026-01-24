@@ -1,5 +1,6 @@
 ---
 title: "Analysis and Applications of Singular Value Decomposition"
+tags: ["uni"]
 date: 2026-01-23T12:19:52+01:00
 draft: false
 description: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."

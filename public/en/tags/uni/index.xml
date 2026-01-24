@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>University Projects on Miguel Planas</title>
+    <link>http://localhost:1313/en/tags/uni/</link>
+    <description>Recent content in University Projects on Miguel Planas</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 23 Jan 2026 12:19:52 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/uni/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis and Applications of Singular Value Decomposition</title>
+      <link>http://localhost:1313/en/projects/svd_project/</link>
+      <pubDate>Fri, 23 Jan 2026 12:19:52 +0100</pubDate>
+      <guid>http://localhost:1313/en/projects/svd_project/</guid>
+      <description>Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD.</description>
+    </item>
+  </channel>
+</rss>

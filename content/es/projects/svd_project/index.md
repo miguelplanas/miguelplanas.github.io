@@ -1,5 +1,6 @@
 ---
 title: "Análisis y Aplicaciones de la Descomposición en Valores Singulares"
+tags: ["uni"]
 date: 2026-01-23T12:19:52+01:00
 draft: false
 description: "Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos mediante SVD."

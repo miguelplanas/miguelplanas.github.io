@@ -23,13 +23,17 @@ defaultContentLanguageInSubdir = true
                 name = "Sobre mí"
                 url = "about/"
                 weight = 20
+            [[languages.es.menu.main]]
+                name = "Etiquetas"
+                url = "tags/"
+                weight = 30
 
         # Parámetros específicos de Español
         [languages.es.params]
             [languages.es.params.profileMode]
                 enabled = true
                 title = "Miguel Planas Díaz"
-                imageUrl = "/images/miguel.jpeg" # Ruta a tu foto
+                imageUrl = "/images/perfil.jpeg" # Ruta a tu foto
                 imageWidth = 120 # Aquí sí puedes elegir el tamaño
                 imageHeight = 120
                 subtitle = "Estudiante de Ciencia e Ingeniería de Datos | Universidade da Coruña"
@@ -58,13 +62,17 @@ defaultContentLanguageInSubdir = true
                 name = "About"
                 url = "about/"
                 weight = 20
+            [[languages.en.menu.main]]
+                name = "Tags"
+                url = "tags/"
+                weight = 30
 
         # Parámetros específicos de Inglés
         [languages.en.params]
             [languages.en.params.profileMode]
                 enabled = true
                 title = "Miguel Planas Díaz"
-                imageUrl = "/images/miguel.jpeg" # Ruta a tu foto
+                imageUrl = "/images/perfil.jpeg" # Ruta a tu foto
                 imageWidth = 120 # Aquí sí puedes elegir el tamaño
                 imageHeight = 120
                 subtitle = "Data Science & Engineering Student | Universidade da Coruña"
@@ -80,6 +88,9 @@ defaultContentLanguageInSubdir = true
 [params]
     defaultTheme = "light"
     showCodeCopyButtons = true
+    showFullTextContent = false
+    showShareButtons = true
+    showPostMeta = true
 
     [[params.socialIcons]]
         name = "github"
