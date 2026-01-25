@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = true
                     name = "Sobre mí"
                     url = "about/"
                 [[languages.es.params.profileMode.buttons]]
-                    name = "Descargar CV"
+                    name = "CV"
                     url = "/cv/CV_Miguel_Planas.pdf"
 
     # --- IDIOMA: INGLÉS ---
@@ -76,7 +76,7 @@ defaultContentLanguageInSubdir = true
                 url = "projects/"
                 weight = 10
             [[languages.en.menu.main]]
-                name = "About"
+                name = "About Me"
                 url = "about/"
                 weight = 20
             [[languages.en.menu.main]]
@@ -102,7 +102,7 @@ defaultContentLanguageInSubdir = true
                     name = "About Me"
                     url = "about/"
                 [[languages.en.params.profileMode.buttons]]
-                    name = "Download CV"
+                    name = "CV"
                     url = "/cv/CV_Miguel_Planas.pdf"
 
 # Parámetros Globales
