@@ -116,6 +116,8 @@ defaultContentLanguageInSubdir = true
     ShowToc = true
     TocOpen = false
     ShowReadingTime = true
+    [params.label]
+        text = "MP"
 
     [[params.socialIcons]]
         name = "github"
