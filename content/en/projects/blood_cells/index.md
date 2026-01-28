@@ -5,7 +5,7 @@ date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Implementation of CNN architectures for cell type identification in microscopic blood smear images, integrating perceptual hashing cleaning and fine-tuning."
 cover:
-    image: "portada.png"
+    image: "/projects/blood_cells/portada.png"
     alt: "Leukocyte classification using CNN"
     relative: true
 ---
@@ -34,12 +34,12 @@ One of the biggest challenges in medical imaging is the bias introduced by redun
 
 As can be seen in the following image, there is an image repeated 1600 times and another quite funny one with Rick Astley's face repeated 200 times.
 
-![Duplicates](portada.png)
+![Duplicates](/projects/blood_cells/portada.png)
 *Figure 1: Duplicate detection using Perceptual Hashing.*
 
 Before starting training, class imbalance was analyzed to adjust model weights and ensure equitable learning among cell types.
 
-![Class distribution](distribucion.png)
+![Class distribution](/projects/blood_cells/distribucion.png)
 *Figure 2: Dataset distribution after cleaning and balancing.*
 
 ---
@@ -54,11 +54,11 @@ First, a CNN architecture optimized for morphological feature extraction was des
 
 <div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="accuracy.png" alt="Accuracy Evolution">
+    <img src="/projects/blood_cells/accuracy.png" alt="Accuracy Evolution">
     <p><em>Accuracy</em></p>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="loss.png" alt="Loss Evolution">
+    <img src="/projects/blood_cells/loss.png" alt="Loss Evolution">
     <p><em>Loss</em></p>
   </div>
 </div>
@@ -73,11 +73,11 @@ The effectiveness of this phase can be observed in the improvement of the **Conf
 
 <div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="confusion_matrix_PRE_FINETUNING.png" alt="Pre Fine-Tuning">
+    <img src="/projects/blood_cells/confusion_matrix_PRE_FINETUNING.png" alt="Pre Fine-Tuning">
     <p><em>Pre Fine-Tuning</em></p>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="confusion_matrix_FINETUNING.png" alt="Post Fine-Tuning">
+    <img src="/projects/blood_cells/confusion_matrix_FINETUNING.png" alt="Post Fine-Tuning">
     <p><em>Post Fine-Tuning</em></p>
   </div>
 </div>
@@ -95,7 +95,7 @@ The effectiveness of this phase can be observed in the improvement of the **Conf
 
 ## Project Report
 
-{{< pdf "/es/projects/blood_cells/AN2DL_PROJECT1.pdf" >}}
+{{< pdf "/projects/blood_cells/AN2DL_PROJECT1.pdf" >}}
 
 ---
 **Link to code:** [anndl on GitHub](https://github.com/miguelplanas/anndl/tree/main/project1)

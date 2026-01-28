@@ -5,7 +5,7 @@ date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Development of UNet and Atrous spatial pyramid pooling enhanced CNN (ASPP) architectures for multiclass terrain segmentation"
 cover:
-    image: "dup_aliens.png"
+    image: "/projects/mars_soil/dup_aliens.png"
     alt: "Soil type segmentation"
     relative: true
 ---
@@ -34,7 +34,7 @@ The quality of segmentation masks is critical. In the initial phase, a deep **Ex
 - **Duplicate Cleaning:** Using Perceptual Hashing, redundant images that would have biased learning were identified and removed.
 - **Dataset Curiosities:** As in other projects, humorous entries infiltrated into technical data were detected, such as this "alien face" deliberately repeated in the training set.
 
-![Duplicate and anomaly detection](dup_aliens.png)
+![Duplicate and anomaly detection](/projects/mars_soil/dup_aliens.png)
 *Figure 1: Duplicate detection using hashing, revealing humorous intrusions in the dataset.*
 
 ---
@@ -64,7 +64,7 @@ The entire training process was monitored in real-time through **Weights & Biase
 
 - **Final Evaluation:** The **MeanIoU** (Intersection over Union) was calculated per class, this being the standard metric to measure the overlap between the prediction and the ground truth.
 
-![Final results](portada.png)
+![Final results](/projects/mars_soil/portada.png)
 *Figure 2: Final model results.*
 
 ---
@@ -80,7 +80,7 @@ The entire training process was monitored in real-time through **Weights & Biase
 
 ## Project Report
 
-{{< pdf "/es/projects/mars_soil/AN2DL_PROJECT2.pdf" >}}
+{{< pdf "/projects/mars_soil/AN2DL_PROJECT2.pdf" >}}
 
 ---
 **Link to code:** [anndl on GitHub](https://github.com/miguelplanas/anndl/tree/main/project2)

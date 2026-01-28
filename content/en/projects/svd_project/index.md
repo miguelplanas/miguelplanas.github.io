@@ -5,7 +5,7 @@ date: 2026-01-23T12:19:52+01:00
 draft: false
 description: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."
 cover:
-    image: "portada.png"
+    image: "/projects/svd_project/portada.png"
     alt: "Visualization of SVD results"
     math: true
 ---
@@ -32,14 +32,14 @@ SVD allows factoring a matrix $A$ of dimensions $m \times n$ into the product $U
 ### 1. Dimensionality Reduction (PCA)
 By computing the eigenvectors of the covariance matrix (derived from the SVD), Principal Component Analysis was implemented to project the MNIST dataset. This makes it possible to identify the latent structure of the data in low-dimensional spaces.
 
-![PCA on MNIST](pca_mnist.png)
+![PCA on MNIST](/projects/svd_project/pca_mnist.png)
 *Figure 1: Projection of MNIST digits onto the first two principal components.*
 
 
 ### 2. Low-Rank Approximation and Compression
 We analyze the energy retention of the original image as a function of the number of singular values preserved. The technique allows compressing visual information by discarding components with lower statistical weight without compromising the interpretability of the image.
 
-![SVD Compression](compresion.png)
+![SVD Compression](/projects/svd_project/compresion.png)
 *Figure 2: Image reconstruction varying the number of singular values (k).*
 
 
@@ -52,7 +52,7 @@ An algorithm was implemented that treats a video sequence as a large matrix. By 
 
 To delve deeper into the theoretical basis and consult the technical details of the implementation, the full project report is attached. It details the mathematical proofs and the extensive discussion of the experiments performed.
 
-{{< pdf "/es/projects/svd_project/memoria.pdf" >}}
+{{< pdf "/projects/svd_project/memoria.pdf" >}}
 
 ## Repository Structure
 

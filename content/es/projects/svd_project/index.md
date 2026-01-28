@@ -5,7 +5,7 @@ date: 2026-01-23T12:19:52+01:00
 draft: false
 description: "Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos usando SVD."
 cover:
-    image: "portada.png"
+    image: "/projects/svd_project/portada.png"
     alt: "Visualización de resultados SVD"
     relative: true
 ---
@@ -53,7 +53,7 @@ $$\lambda_i = \frac{\sigma_i^2}{n-1}$$
 
 Aplicando esto al dataset **MNIST** (dígitos manuscritos de 28x28 píxeles), logramos proyectar imágenes de alta dimensionalidad en un plano 2D. Como se observa en la figura, esto revela la estructura latente de los datos, agrupando los dígitos en clusters distinguibles sin necesidad de etiquetas previas.
 
-![PCA sobre MNIST](pca_mnist.png)
+![PCA sobre MNIST](/projects/svd_project/pca_mnist.png)
 *Figura 1: Proyección de los dígitos de MNIST sobre los dos primeros componentes principales, mostrando la agrupación natural de las clases.*
 
 ### Compresión de Imágenes: La Energía de los Datos
@@ -67,7 +67,7 @@ En el experimento realizado con una imagen astronómica de alta resolución:
 
 Esto supone un ahorro drástico de memoria: en lugar de almacenar $m \times n$ píxeles, solo necesitamos guardar $k(m+n+1)$ valores.
 
-![Compresión SVD](compresion.png)
+![Compresión SVD](/projects/svd_project/compresion.png)
 *Figura 2: Evolución de la reconstrucción de imagen variando el rango $k$. Obsérvese cómo con $k=100$ la pérdida de información es prácticamente imperceptible al ojo humano.*
 
 ### Procesamiento de Video: Separación de Fondo
@@ -81,7 +81,7 @@ El algoritmo implementado:
 2.  Reconstruye el fondo usando solo el **primer valor singular** ($\sigma_1$).
 3.  Obtiene el primer plano (objetos en movimiento) mediante la sustracción: $M_{primer\_plano} = |M - M_{fondo}|$.
 
-![Segmentación de fondo en vídeo](portada.png)
+![Segmentación de fondo en vídeo](/projects/svd_project/portada.png)
 *Figura 3: Izquierda: Frame original. Centro: Fondo estático recuperado (Rango 1). Derecha: Máscara de movimiento aislada.*
 
 ---
@@ -90,7 +90,7 @@ El algoritmo implementado:
 
 Para profundizar en la base teórica y consultar los detalles técnicos de la implementación, se adjunta el documento completo de la memoria del proyecto. En él se detallan las demostraciones matemáticas y la discusión extensa de los experimentos realizados.
 
-{{< pdf "memoria.pdf" >}}
+{{< pdf "/projects/svd_project/memoria.pdf" >}}
 
 ---
 

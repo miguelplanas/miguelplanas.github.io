@@ -5,7 +5,7 @@ date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Implementación de arquitecturas CNN para la identificación de tipos celulares en imágenes microscópicas de frotis sanguíneos, integrando limpieza por hashing perceptual y fine-tuning."
 cover:
-    image: "portada.png"
+    image: "/projects/blood_cells/portada.png"
     alt: "Clasificación de leucocitos mediante CNN"
     relative: true
 ---
@@ -33,12 +33,12 @@ Uno de los mayores retos en imagen médica es el sesgo introducido por datos red
 - **Resultado:** Limpieza de imágenes corruptas o repetidas, garantizando que la precisión del modelo refleje su capacidad real de generalización.
 
 Como se puede apreciar en la siguiente imagen, hay una imagen repetida 1600 veces y otra bastante graciosa con la cara de Rick Astley repetida 200 veces
-![Duplicados](portada.png)
+![Duplicados](/projects/blood_cells/portada.png)
 *Figura 1: Detección de duplicados mediante Hashing Perceptual.*
 
 Antes de comenzar el entrenamiento, se analizó el desbalanceo de clases para ajustar los pesos del modelo y asegurar un aprendizaje equitativo entre tipos celulares.
 
-![Distribución de clases](distribucion.png)
+![Distribución de clases](/projects/blood_cells/distribucion.png)
 *Figura 2: Distribución del dataset tras la limpieza y balanceo.*
 
 ---
@@ -53,11 +53,11 @@ En primer lugar se diseñó una arquitectura CNN optimizada para la extracción 
 
 <div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="accuracy.png" alt="Evolución de Precisión">
+    <img src="/projects/blood_cells/accuracy.png" alt="Evolución de Precisión">
     <p><em>Precisión (Accuracy)</em></p>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="loss.png" alt="Evolución de Pérdida">
+    <img src="/projects/blood_cells/loss.png" alt="Evolución de Pérdida">
     <p><em>Pérdida (Loss)</em></p>
   </div>
 </div>
@@ -72,11 +72,11 @@ La efectividad de esta fase se puede observar en la mejora de las **Matrices de 
 
 <div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="confusion_matrix_PRE_FINETUNING.png" alt="Pre Fine-Tuning">
+    <img src="/projects/blood_cells/confusion_matrix_PRE_FINETUNING.png" alt="Pre Fine-Tuning">
     <p><em>Pre Fine-Tuning</em></p>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="confusion_matrix_FINETUNING.png" alt="Post Fine-Tuning">
+    <img src="/projects/blood_cells/confusion_matrix_FINETUNING.png" alt="Post Fine-Tuning">
     <p><em>Post Fine-Tuning</em></p>
   </div>
 </div>
@@ -94,7 +94,7 @@ La efectividad de esta fase se puede observar en la mejora de las **Matrices de 
 
 ## Memoria del Proyecto
 
-{{< pdf "AN2DL_PROJECT1.pdf" >}}
+{{< pdf "/projects/blood_cells/AN2DL_PROJECT1.pdf" >}}
 
 ---
 **Enlace al código:** [anndl en GitHub](https://github.com/miguelplanas/anndl/tree/main/project1)
