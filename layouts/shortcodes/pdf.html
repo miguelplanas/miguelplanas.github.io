@@ -1,0 +1,11 @@
+{{- $path := .Get 0 -}}
+{{- $file := .Page.Resources.GetMatch $path -}}
+{{- $src := "" -}}
+{{- if $file -}}
+{{- $src = $file.RelPermalink -}}
+{{- else -}}
+{{- $src = $path | absURL -}}
+{{- end -}}
+<object data="{{ $src }}" type="application/pdf" width="100%" height="800px">
+    <p>Unable to display PDF? <a href="{{ $src }}">Download</a> instead.</p>
+</object>

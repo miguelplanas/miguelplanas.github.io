@@ -18,6 +18,8 @@ cover:
   </a>
 </div>
 
+
+
 ## Resumen del Proyecto
 
 Este repositorio documenta un estudio práctico sobre la **Descomposición en Valores Singulares (SVD)**, una herramienta fundamental en el Análisis Numérico. El proyecto no solo explora la teoría matemática detrás de la factorización $A=U\Sigma V^t$, sino que demuestra cómo esta operación abstracta es el motor de soluciones reales en ingeniería de datos, desde la compresión eficiente hasta la visión artificial.
@@ -81,6 +83,14 @@ El algoritmo implementado:
 
 ![Segmentación de fondo en vídeo](portada.png)
 *Figura 3: Izquierda: Frame original. Centro: Fondo estático recuperado (Rango 1). Derecha: Máscara de movimiento aislada.*
+
+---
+
+## Memoria del Proyecto
+
+Para profundizar en la base teórica y consultar los detalles técnicos de la implementación, se adjunta el documento completo de la memoria del proyecto. En él se detallan las demostraciones matemáticas y la discusión extensa de los experimentos realizados.
+
+{{< pdf "memoria.pdf" >}}
 
 ---
 

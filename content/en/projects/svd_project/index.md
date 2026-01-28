@@ -48,6 +48,12 @@ An algorithm was implemented that treats a video sequence as a large matrix. By 
 
 ---
 
+## Project Report
+
+To delve deeper into the theoretical basis and consult the technical details of the implementation, the full project report is attached. It details the mathematical proofs and the extensive discussion of the experiments performed.
+
+{{< pdf "/es/projects/svd_project/memoria.pdf" >}}
+
 ## Repository Structure
 
 * `0_implementacion_svd.ipynb`: Development of the decomposition from scratch and computation of the Moore–Penrose pseudoinverse.
