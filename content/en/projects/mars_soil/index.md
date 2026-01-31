@@ -9,7 +9,6 @@ cover:
     alt: "Soil type segmentation"
     relative: true
 ---
-
 <div style="display: flex; justify-content: left; gap: 10px; flex-wrap: nowrap;">
   <a href="https://github.com/miguelplanas/anndl/tree/main/project2" style="text-decoration: none; box-shadow: none;">
     <img src="https://img.shields.io/badge/github-anndl-black?style=for-the-badge&logo=github" style="margin: 0;" />

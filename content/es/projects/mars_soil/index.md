@@ -1,15 +1,17 @@
 ---
-title: "Segmentación Semántica de Suelos con Deep Learning"
-tags: ["polimi", "python", "computer-vision"]
+title: Segmentación Semántica de Suelos con Deep Learning
+tags:
+  - polimi
+  - python
+  - computer-vision
 date: 2026-01-25T12:00:00+01:00
 draft: false
-description: "Desarrollo de arquitecturas UNet y Atrous spatial pyramid pooling enhanced CNN (ASPP) para la segmentación multiclase de terrenos"
+description: Desarrollo de arquitecturas UNet y Atrous spatial pyramid pooling enhanced CNN (ASPP) para la segmentación multiclase de terrenos
 cover:
-    image: "/projects/mars_soil/dup_aliens.png"
-    alt: "Segmentación de tipos de suelo"
-    relative: true
+  image: /projects/mars_soil/dup_aliens.png
+  alt: Segmentación de tipos de suelo
+  relative: true
 ---
-
 <div style="display: flex; justify-content: left; gap: 10px; flex-wrap: nowrap;">
   <a href="https://github.com/miguelplanas/anndl/tree/main/project2" style="text-decoration: none; box-shadow: none;">
     <img src="https://img.shields.io/badge/github-anndl-black?style=for-the-badge&logo=github" style="margin: 0;" />
