@@ -1,6 +1,6 @@
 ---
 title: "Clasificación de Células Sanguíneas con Deep Learning"
-tags: ["uni", "python", "computer-vision"]
+tags: ["polimi", "python", "computer-vision"]
 date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Implementación de arquitecturas CNN para la identificación de tipos celulares en imágenes microscópicas de frotis sanguíneos, integrando limpieza por hashing perceptual y fine-tuning."
@@ -61,9 +61,12 @@ En primer lugar se diseñó una arquitectura CNN optimizada para la extracción 
     <p><em>Pérdida (Loss)</em></p>
   </div>
 </div>
+
 *Figura 3: Evolución de métricas durante las fases de entrenamiento y validación.*
 
+
 Con el objetivo de mejorar el rendimiento del modelo, se implementó un proceso de **Fine-Tuning**, tomando como base el **modelo preentrenado MobileNetV3**, congelando las capas inferiores para proteger el aprendizaje de características morfológicas, y ajustando los pesos de las capas superiores para adaptarlas al dataset específico.
+
 ---
 
 ## 3. Evaluación y Fine-Tuning

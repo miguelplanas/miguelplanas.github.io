@@ -1,10 +1,6 @@
 ---
 title: Análisis y Aplicaciones de la SVD
-tags:
-  - uni
-  - python
-  - computer-vision
-  - math
+tags: ["udc", "python", "computer-vision", "math"]
 date: 2026-01-23T12:19:52+01:00
 draft: false
 description: Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos usando SVD.

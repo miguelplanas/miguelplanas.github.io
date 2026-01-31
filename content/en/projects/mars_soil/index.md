@@ -1,6 +1,6 @@
 ---
 title: "Semantic Soil Segmentation with Deep Learning"
-tags: ["uni", "python", "computer-vision"]
+tags: ["polimi", "python", "computer-vision"]
 date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Development of UNet and Atrous spatial pyramid pooling enhanced CNN (ASPP) architectures for multiclass terrain segmentation"

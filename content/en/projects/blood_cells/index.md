@@ -1,6 +1,6 @@
 ---
 title: "Blood Cell Classification with Deep Learning"
-tags: ["uni", "python", "computer-vision"]
+tags: ["polimi", "python", "computer-vision"]
 date: 2026-01-25T12:00:00+01:00
 draft: false
 description: "Implementation of CNN architectures for cell type identification in microscopic blood smear images, integrating perceptual hashing cleaning and fine-tuning."
@@ -62,9 +62,11 @@ First, a CNN architecture optimized for morphological feature extraction was des
     <p><em>Loss</em></p>
   </div>
 </div>
+
 *Figure 3: Evolution of metrics during training and validation phases.*
 
 With the aim of improving model performance, a **Fine-Tuning** process was implemented, based on the **pre-trained MobileNetV3 model**, freezing the lower layers to protect morphological feature learning, and adjusting the upper layer weights to adapt them to the specific dataset.
+
 ---
 
 ## 3. Evaluation and Fine-Tuning
