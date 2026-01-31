@@ -1,13 +1,17 @@
 ---
-title: "Análisis y Aplicaciones de la Descomposición en Valores Singulares"
-tags: ["uni", "python", "computer-vision", "math"]
+title: Análisis y Aplicaciones de la SVD
+tags:
+  - uni
+  - python
+  - computer-vision
+  - math
 date: 2026-01-23T12:19:52+01:00
 draft: false
-description: "Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos usando SVD."
+description: Estudio sobre la reducción de dimensionalidad, compresión de señales y extracción de componentes dinámicos usando SVD.
 cover:
-    image: "/projects/svd_project/portada.png"
-    alt: "Visualización de resultados SVD"
-    relative: true
+  image: /projects/svd_project/portada.png
+  alt: Visualización de resultados SVD
+  relative: true
 ---
 <div style="display: flex; justify-content: left; gap: 10px; flex-wrap: nowrap;">
   <a href="https://github.com/miguelplanas/svd_project" style="text-decoration: none; box-shadow: none;">
