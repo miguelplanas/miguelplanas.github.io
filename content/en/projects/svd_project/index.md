@@ -1,7 +1,7 @@
 ---
 title: "Analysis and Applications of Singular Value Decomposition"
 tags: ["udc", "python", "computer-vision", "math"]
-date: 2026-01-23T12:19:52+01:00
+date: 2025-11-12T12:19:52+01:00
 draft: false
 description: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."
 cover:
