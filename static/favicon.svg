@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Dark background container (like a code block) -->
+  <rect x="0" y="0" width="64" height="64" rx="12" ry="12" fill="#1e1e1e" />
+  
+  <!-- Glitch Effect Text Group -->
+  <g font-family="monospace" font-weight="bold" font-size="34" text-anchor="middle" dominant-baseline="central">
+    <!-- Cyan Shadow (Left-Top offset) -->
+    <text x="30" y="30" fill="#00ffff" opacity="0.8">MP</text>
+    
+    <!-- Red Shadow (Right-Bottom offset) -->
+    <text x="34" y="34" fill="#ff0000" opacity="0.8">MP</text>
+    
+    <!-- Main Text (White) -->
+    <text x="32" y="32" fill="#ffffff">MP</text>
+  </g>
+</svg>

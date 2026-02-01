@@ -118,6 +118,13 @@ defaultContentLanguageInSubdir = true
     ShowReadingTime = true
     [params.label]
         text = "MP"
+        
+    [params.assets]
+        favicon = "/favicon.svg"
+        favicon16x16 = "/favicon.svg"
+        favicon32x32 = "/favicon.svg"
+        apple_touch_icon = "/favicon.svg"
+
 
     [[params.socialIcons]]
         name = "github"
