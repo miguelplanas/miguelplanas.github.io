@@ -1,7 +1,7 @@
 ---
 title: "Clasificación de Células Sanguíneas con Deep Learning"
 tags: ["polimi", "python", "computer-vision"]
-date: 2026-01-25T12:00:00+01:00
+date: 2024-11-24T12:00:00+01:00
 draft: false
 description: "Implementación de arquitecturas CNN para la identificación de tipos celulares en imágenes microscópicas de frotis sanguíneos, integrando limpieza por hashing perceptual y fine-tuning."
 cover:

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "en/about/index.md",
+                "file": "es/projects/mars_soil/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -161,13 +161,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "69e2049167986304",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 498.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,20 +187,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5995d94e5656be9f",
+  "active": "94e3a28ae76875ed",
   "lastOpenFiles": [
-    "es/about/index.md",
-    "es/about/dathaton.jpeg",
+    "es/projects/svd_project/index.md",
+    "es/projects/svm_project/index.md",
     "es/projects/blood_cells/index.md",
+    "es/about/index.md",
+    "en/about/index.md",
+    "es/projects/svm_project",
+    "es/about/dathaton.jpeg",
     "es/about/dathaton.jpeg:Zone.Identifier",
     "en/about/miguel.jpeg",
     "es/about/miguel.jpeg",
-    "en/about/index.md",
     "en/projects/svd_project/index.md",
-    "es/projects/svd_project/index.md",
     "es/projects/_index.md",
     "es/projects/mars_soil/index.md",
     "en/projects/mars_soil/index.md"
