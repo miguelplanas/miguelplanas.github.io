@@ -177,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94e3a28ae76875ed",
+  "active": "69e2049167986304",
   "lastOpenFiles": [
     "es/projects/svd_project/index.md",
     "es/projects/svm_project/index.md",
