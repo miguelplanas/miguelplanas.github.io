@@ -51,7 +51,7 @@ Throughout my degree, I have acquired knowledge and practice with the following 
 * **Artificial Intelligence & Deep Learning:** Development of predictive models and advanced solutions using leading frameworks like **PyTorch** and **TensorFlow**, complemented with **Scikit-learn** for classical Machine Learning algorithms.
 * **Mathematical Analysis & Visualization:** Statistical treatment and manipulation of complex data with the **Python** scientific stack (NumPy, Pandas, Matplotlib...) and **R**. I can transform these analyses into visual insights and interactive dashboards with **Power BI**.
 
-## Behind the Screens
+## Personal Interests
 
 In my free time, I prioritize spending time with the people I love. I also enjoy sports, cinema, and music. Furthermore, whenever I can, I try to travel, as getting to know new cultures is something that I am truly passionate about.
 

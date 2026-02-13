@@ -51,7 +51,7 @@ A lo largo de la carrera, he ido adquiriendo conocimientos y práctica con las s
 * **Inteligencia Artificial & Deep Learning:** Desarrollo de modelos predictivos y soluciones avanzadas utilizando frameworks líderes como **PyTorch** y **TensorFlow**, complementados con **Scikit-learn** para algoritmos de Machine Learning clásico.
 * **Análisis Matemático & Visualización:** Tratamiento estadístico y manipulación de datos complejos con el stack científico de **Python** (NumPy, Pandas, Matplotlib...) y **R**. Puedo transformar estos análisis en *insights* visuales y cuadros de mando interactivos con **Power BI**.
 
-## Detrás de las pantallas
+## Intereses personales
 
 En mi tiempo libre, priorizo pasar tiempo con la gente que quiero. También disfruto el deporte, el cine y la música. Además, siempre que puedo intento viajar, ya que conocer nuevas culturas es algo que realmente me apasiona.
 
