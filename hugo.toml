@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = true
                     url = "about/"
                 [[languages.es.params.profileMode.buttons]]
                     name = "CV"
-                    url = "/cv/CV_Miguel_Planas.pdf"
+                    url = "/cv/cv_en_miguelplanas.pdf"
 
     # --- IDIOMA: INGLÉS ---
     [languages.en]
@@ -103,7 +103,7 @@ defaultContentLanguageInSubdir = true
                     url = "about/"
                 [[languages.en.params.profileMode.buttons]]
                     name = "CV"
-                    url = "/cv/CV_Miguel_Planas.pdf"
+                    url = "/cv/cv_en_miguelplanas.pdf"
 
 # Parámetros Globales
 [params]
