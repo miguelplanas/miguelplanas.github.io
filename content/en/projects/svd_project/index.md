@@ -4,6 +4,7 @@ tags: ["udc", "python", "computer-vision", "math"]
 date: 2025-11-12T12:19:52+01:00
 draft: false
 description: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."
+summary: "Study on dimensionality reduction, signal compression and extraction of dynamic components using SVD."
 cover:
     image: "/projects/svd_project/portada.png"
     alt: "Visualization of SVD results"

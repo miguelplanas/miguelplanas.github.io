@@ -4,6 +4,7 @@ tags: ["polimi", "python", "computer-vision"]
 date: 2024-11-24T12:00:00+01:00
 draft: false
 description: "Implementation of CNN architectures for cell type identification in microscopic blood smear images, integrating perceptual hashing cleaning and fine-tuning."
+summary: "Implementation of CNN architectures for cell type identification in microscopic blood smear images, integrating perceptual hashing cleaning and fine-tuning."
 cover:
     image: "/projects/blood_cells/portada.png"
     alt: "Leukocyte classification using CNN"

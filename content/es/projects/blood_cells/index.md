@@ -4,6 +4,7 @@ tags: ["polimi", "python", "computer-vision"]
 date: 2024-11-24T12:00:00+01:00
 draft: false
 description: "Implementación de arquitecturas CNN para la identificación de tipos celulares en imágenes microscópicas de frotis sanguíneos, integrando limpieza por hashing perceptual y fine-tuning."
+summary: "Implementación de arquitecturas CNN para la identificación de tipos celulares en imágenes microscópicas de frotis sanguíneos, integrando limpieza por hashing perceptual y fine-tuning."
 cover:
     image: "/projects/blood_cells/portada.png"
     alt: "Clasificación de leucocitos mediante CNN"

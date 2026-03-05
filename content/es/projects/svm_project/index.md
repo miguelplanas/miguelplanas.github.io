@@ -8,6 +8,7 @@ date: 2025-03-16T12:19:52+01:00
 draft: false
 math: true
 description: "Proyecto de desarrollo teórico sobre Máquinas de Vectores de Soporte para la asignatura Numerical Analysis for Machine Learning en el Politecnico di Milano."
+summary: "Proyecto de desarrollo teórico sobre Máquinas de Vectores de Soporte para la asignatura Numerical Analysis for Machine Learning en el Politecnico di Milano."
 cover:
   image: /projects/svm_project/kernel_method.png
   alt: Método kernel

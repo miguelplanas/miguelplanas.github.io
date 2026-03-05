@@ -9,6 +9,7 @@ date: 2024-12-20T10:00:00+01:00
 draft: false
 math: true
 description: "Theoretical and practical project on Principal Component Analysis (PCA) applied to facial recognition through Eigenfaces for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
+summary: "Theoretical and practical project on Principal Component Analysis (PCA) applied to facial recognition through Eigenfaces for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
 cover:
   image: /projects/pca_eigenfaces/eigenfaces_publication.png
   alt: Eigenfaces visualization

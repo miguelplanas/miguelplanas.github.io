@@ -8,6 +8,7 @@ date: 2025-03-16T12:19:52+01:00
 draft: false
 math: true
 description: "Theoretical development project on Support Vector Machines for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
+summary: "Theoretical development project on Support Vector Machines for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
 cover:
   image: /projects/svm_project/kernel_method.png
   alt: Kernel method visualization

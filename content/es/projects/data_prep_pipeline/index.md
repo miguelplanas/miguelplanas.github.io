@@ -6,6 +6,7 @@ tags:
 date: 2024-12-01T12:19:52+01:00
 draft: false
 description: "Implementación de un pipeline robusto de preparación de datos para el dataset de Permisos de Construcción de San Francisco, abordando las dimensiones de calidad de datos: completitud, precisión, consistencia y validez."
+summary: "Implementación de un pipeline robusto de preparación de datos para el dataset de Permisos de Construcción de San Francisco, abordando las dimensiones de calidad de datos: completitud, precisión, consistencia y validez."
 cover:
   image: /projects/data_prep_pipeline/diq.png
   alt: Visualización del perfilado de datos

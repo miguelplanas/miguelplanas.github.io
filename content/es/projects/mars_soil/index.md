@@ -7,6 +7,7 @@ tags:
 date: 2024-12-14T12:00:00+01:00
 draft: false
 description: Desarrollo de arquitecturas UNet y Atrous spatial pyramid pooling enhanced CNN (ASPP) para la segmentación multiclase de terrenos
+summary: Desarrollo de arquitecturas UNet y Atrous spatial pyramid pooling enhanced CNN (ASPP) para la segmentación multiclase de terrenos
 cover:
   image: /projects/mars_soil/dup_aliens.png
   alt: Segmentación de tipos de suelo

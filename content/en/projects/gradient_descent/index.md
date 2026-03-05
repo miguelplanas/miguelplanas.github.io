@@ -8,6 +8,7 @@ date: 2024-11-17T10:00:00+01:00
 draft: false
 math: true
 description: "Theoretical and practical project on Gradient Descent Optimization with automatic differentiation using JAX for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
+summary: "Theoretical and practical project on Gradient Descent Optimization with automatic differentiation using JAX for the Numerical Analysis for Machine Learning course at Politecnico di Milano."
 cover:
   image: /projects/gradient_descent/gradient_descent_publication.png
   alt: Gradient Descent Optimization visualization

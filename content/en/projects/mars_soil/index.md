@@ -4,6 +4,7 @@ tags: ["polimi", "python", "computer-vision"]
 date: 2024-12-14T12:00:00+01:00
 draft: false
 description: "Development of UNet and Atrous spatial pyramid pooling enhanced CNN (ASPP) architectures for multiclass terrain segmentation"
+summary: "Development of UNet and Atrous spatial pyramid pooling enhanced CNN (ASPP) architectures for multiclass terrain segmentation"
 cover:
     image: "/projects/mars_soil/dup_aliens.png"
     alt: "Soil type segmentation"

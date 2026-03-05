@@ -6,6 +6,7 @@ tags:
 date: 2024-12-01T12:19:52+01:00
 draft: false
 description: "Implementation of a robust data preparation pipeline for the San Francisco Building Permits dataset, addressing data quality dimensions including completeness, accuracy, consistency, and validity."
+summary: "Implementation of a robust data preparation pipeline for the San Francisco Building Permits dataset, addressing data quality dimensions including completeness, accuracy, consistency, and validity."
 cover:
   image: /projects/data_prep_pipeline/diq.png
   alt: Data profiling visualization
