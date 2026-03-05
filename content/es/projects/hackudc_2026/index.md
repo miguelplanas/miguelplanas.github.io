@@ -7,7 +7,7 @@ tags:
   - fastapi
   - awards
 date: 2026-03-01T12:00:00+01:00
-draft: true
+draft: false
 description: "Pipeline de IA para asociar prendas en fotos de moda con un catálogo de 27k productos usando SigLIP, DINOv2 y fine-tuning contrastivo — desarrollado en HackUDC 2026 para el reto de INDITEXTECH."
 summary: "Pipeline de IA para asociar prendas en fotos de moda con un catálogo de 27k productos usando SigLIP, DINOv2 y fine-tuning contrastivo — desarrollado en HackUDC 2026 para el reto de INDITEXTECH."
 cover:

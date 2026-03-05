@@ -7,7 +7,7 @@ tags:
   - fastapi
   - awards
 date: 2026-03-01T12:00:00+01:00
-draft: true
+draft: false
 description: "AI pipeline for matching garments in fashion photos to a 27k-item product catalogue using SigLIP, DINOv2 and contrastive fine-tuning — built at HackUDC 2026 for the INDITEXTECH challenge."
 summary: "AI pipeline for matching garments in fashion photos to a 27k-item product catalogue using SigLIP, DINOv2 and contrastive fine-tuning — built at HackUDC 2026 for the INDITEXTECH challenge."
 cover:
